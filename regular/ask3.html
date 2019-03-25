@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Queuing Home</title>
+    <meta charset="utf-8"/>
+        <meta type="viewport" content="width=device=width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/inputstyle.css" type="text/css"/>
+</head>
+<body>
+    <br><br>
+    <div class="nin1">
+         <center><o>Please enter your mobile number to be notified through SMS if your number is near.</o>  <br><br></center>
+    
+            <form action="nseniorconfirm.php" method="POST">
+       	 
+           <input type="text"  class="numbertf" pattern="[0-9]{11}" title="PLEASE PUT 11-DIGIT NUMBER" onKeyDown="if(this.value.length==11 && event.keyCode!=8) return false;" name="contact" placaholder="Contact Number"autocomplete="off"><br><br>
+       		<button type="submit" class="numsub"><b> Submit </b></buttton>
+    		</form>
+
+        </div>
+
+    
+   
+</body>
+</html>

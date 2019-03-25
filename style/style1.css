@@ -1,0 +1,239 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input:focus{
+    outline: none;
+}
+
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('../img/bg.jpg');
+    background-size: 100%;
+    background-position:  center;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x:hidden;
+}
+
+.nin{
+	width: 90%;
+	height: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.nin1{
+	width: 90%;
+	height: 90%;
+	margin-left: 7%;
+	margin-top: 5%;
+}
+
+l{
+	font-family: Arial;
+	font-size: 70px;
+	padding-left: 15%;
+}
+
+o{
+	font-family: Arial;
+	font-size: 40px;
+}
+
+n{
+	font-family: Arial;
+	font-size: 70px;
+	color: orangered;
+}
+
+t{
+	font-family: Arial;
+	font-size: 170%;
+	padding-left: 4%;
+}
+
+k{
+	font-family: Arial;
+	font-size: 60px;
+}
+
+m{
+	font-family: Arial;
+	font-size: 70px;
+	color: white;
+}
+
+.buttonask1{
+	width: 30%;
+	height:20%;
+	float: left;
+	margin-left: 13%;
+	background-color: orangered;
+	border-radius: 3px;
+	margin-top: 3%;
+	border: 0px;
+}
+.buttonask2{
+	width: 30%;
+	height:20%;
+	float: right;
+	margin-right: 13%;
+	background-color: orangered;
+	border-radius: 3px;
+	margin-top: 3%;
+	border: 0px;
+}
+
+.pay1{
+	width: 20%;
+	height:10%;
+	background-color: orangered;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	float: left;
+	margin-left: 22.5%;
+	border: 0px;
+	border-radius: 3px;
+}
+.pay2{
+	width: 20%;
+	height:10%;
+	background-color: orangered;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	float: right;
+	margin-right: 22.5%;
+	border: 0px;
+	border-radius: 3px;
+}
+
+.not{
+	
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+.payfield1{
+	width: 25%;
+	float: left;
+	margin-left: 20%;
+	margin-top: 2%;
+	border: 0px;	
+	border-radius: 3px;
+}
+
+.payfield2{
+	width:25%;
+	float: right;
+	margin-right: 20%;
+	margin-top: 2%;
+	border: 0px;
+	border-radius: 3px;
+}
+
+.payfield{
+	width:100%;
+	float: left;
+}
+
+.paytf{
+	width: 100%;
+	height: 50px;
+	font-family: arial;
+	font-size: 20px;
+	border: 2px solid orangered;
+	margin-top: 2%;
+}
+
+.numbertf{
+	width: 90%;
+	height: 70px;
+	font-family: arial;
+	font-size: 50px;
+	border: 2px solid orangered;
+	margin-top: 2%;
+}
+
+.paysub{
+	width: 15%;
+	height:10%;
+	background-color: orangered;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	float: left;
+	margin-left: 42.5%;
+	border: 0px;
+	margin-top: 5%;
+	border-radius: 3px;
+}
+
+.numsub{
+	width: 20%;
+	height:15%;
+	background-color: orangered;
+	color: white;
+	font-family: arial;
+	font-size: 45px;
+	float: left;
+	margin-left: 40%;
+	border: 0px;
+	margin-top: 5%;
+	border-radius: 3px;
+}
+
+.paycancel{
+	width: 15%;
+	height:10%;
+	background-color: orangered;
+	color: white;
+	font-family: arial;
+	font-size: 30px;
+	float: left;
+	margin-left: 42.5%;
+	border: 0px;
+	margin-top: 2%;
+	border-radius: 3px;
+}
+
+
+table{
+	width: 80%;
+	margin-top: 2%;
+	border-collapse: collapse;
+}
+tr{
+	width: 100%;
+	height: 50px;
+}
+td{
+	width: 20%;
+	height: 50px;
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+}
+
+#tellertab{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+#tellertab td{
+	border: 1px solid orangered;
+	padding: 8px;
+  }
+
+
